@@ -10,13 +10,15 @@ class exampleprograms():
 
     def oddeven(num):
         if num%2!=0:
-            print("odd number")
+                print("odd number")
                 number="The given number is odd"        
         else:
-             print("even number")
-                number="The given number is even number"
-               
+            print("even number")
+            number="The given number is even number"
+                   
         return number
+        
+            
             
     def Eligible(Gender, age):
                 print("Your Gender:", Gender)
